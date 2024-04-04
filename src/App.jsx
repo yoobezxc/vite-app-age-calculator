@@ -1,9 +1,11 @@
+import Card from "./components/Card";
+
 function App() {
   return (
     <>
-      <div className="bg-black p-40 text-5xl font-black text-blue-600">
-        Hello World
-      </div>
+      <main className="grid min-h-screen place-items-center bg-[#dbdbdb] font-['Poppins']">
+        <Card />
+      </main>
     </>
   );
 }
